@@ -21,10 +21,9 @@ public class TestDao {
             long end = System.currentTimeMillis();
 
             System.out.println("Total execusion time in ms: " + (end - start));
-<<<<<<< HEAD
-=======
+
+
             System.out.println("Retrieving database names");
->>>>>>> main
             while (resultSet.next()) {
                 System.out.println(resultSet.getString("Database"));
                 databases.add(resultSet.getString("Database"));
